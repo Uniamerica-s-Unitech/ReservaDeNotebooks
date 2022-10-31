@@ -7,7 +7,6 @@
 body {
   background-color: #ffffff;
 }
-
 .pessoas img{
     width: auto;
     height: auto;
@@ -18,7 +17,6 @@ body {
   max-height: 100%;
 }
 .logo img{
-
   align-items: center;
   padding-top: 10px;
   left: 42%;
@@ -28,7 +26,6 @@ body {
   max-height: 250px;
   width: auto;
   height: auto;
-
 }
 form {
   background: #ffffff;
@@ -48,7 +45,6 @@ form h1 {
   font-family: "Lexend Deca";
   font-weight: 400;
 }
-
 form input[type="text"],
 form input[type="password"] {
   font-family: "Lexend Deca";
@@ -85,13 +81,11 @@ form input[type="password"] {
   border-radius: 10px;
   transition: 0.3s;
 
-
 }
 .entrar:hover {
   background-color: #6fd6a6;
   color: white;
 }
-
 form input[type="text"]:focus {
   outline: 0;
 }
@@ -123,7 +117,6 @@ form a:hover {
     left: 80%;
   }
 }
-
 @keyframes colors {
   0% {
     background-position: 0% 50%;

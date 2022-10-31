@@ -1,26 +1,23 @@
 #caixa{
     display: flex;
-    justify-content: flex-end;
 }
-
 #divBusca{
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-around;
     background-color: transparent;
     border-bottom: 2px solid #5795F1;
-    width: 1579px;
+    width: 100%;
     height: 70px;
     gap: 10px;
 }
-
 #buscaBotao{
     background-color: transparent;
     border: none;
     padding-left: 12px;
     cursor: pointer;
 }
-
 #txtBusca{
     border: none;
     font-family: Lexend Deca;
@@ -30,7 +27,6 @@
     font-weight: 400;
     outline: none;
 }
-
 #centralBotao{
     display: flex;
     flex-direction: row;
@@ -48,7 +44,6 @@
     font-weight: 400;
     cursor: pointer;
 }
-
 .text{
     padding-left: 12px;
     width: 100%;
