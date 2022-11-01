@@ -52,3 +52,12 @@ html, body{
     margin-left: 5%;
     margin-right: 5%;
 }
+
+.logoff-button {
+    border-style: none;
+    border-radius: 15px;
+    background-color: #00A859;
+    color: white;
+    margin-left: 35%;
+    margin-right: 35%;
+}
