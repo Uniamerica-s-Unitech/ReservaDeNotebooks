@@ -4,22 +4,23 @@
 h1 {
     font-family: 'Poppins';
 }
-body {
-    margin: auto;
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
     display: flex;
 }
 .sidebar {
     background-color: #EFEFEF;
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     width: 18%;
 }
 .logo-img {
     height: 20%;
     display: flex;
     align-self: center;
-    padding-top: 10%;
-    padding-bottom: 10%;
 }
 .sidebar article{
     padding-top: 8%;
@@ -30,7 +31,7 @@ body {
 .sidebar footer{
     display: flex;
     flex-direction: column;
-    justify-content: end;
+    justify-self: flex-end;
     padding-top: 8%;
     padding-bottom: 8%;
 
