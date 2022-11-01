@@ -80,7 +80,6 @@ form input[type="password"] {
   color: rgb(255, 248, 248);
   border-radius: 10px;
   transition: 0.3s;
-
 }
 .entrar:hover {
   background-color: #6fd6a6;
