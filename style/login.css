@@ -1,3 +1,20 @@
+:root{
+    --grey-accent: #6F6A6A;
+}
+h1{
+    font-size: 1.8rem;
+    font-weight: 700;
+    padding: 0;
+    margin: 0;
+
+}
+p{
+    font-size: 1rem;
+    color: var(--grey-accent);
+    font-weight: 300;
+    display: block;
+}
+
 body{
     width: 100vw;
     display: flex;
@@ -6,11 +23,10 @@ body{
 }
 
 #center-block{
+    display: flex;
+    flex-direction: column;
     padding: 2rem;
     margin-top: 20vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     border-style: none;
     border-radius: 2rem;
     -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
@@ -19,15 +35,17 @@ body{
 }
 
 #items-of-center-block{
-    display: flex;
-    align-items: center;
     justify-content: center;
     flex-direction: column;
 }
+#center-block header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 #center-block header img{
-    width: 6vw;
-    margin-bottom: 2rem;
+    width: 8rem;
 }
 
 #user-inputs{
@@ -38,6 +56,42 @@ body{
     gap: 1rem;
 }
 
-#user-input input{
-    border:0;
+#user-inputs input{
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+
+}
+#user-inputs img{
+    width: 1.5rem;
+    margin-right: 1rem;
+}
+#user-inputs span{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;  
+}
+
+#user-inputs div{
+    margin-top: 2rem;
+}
+
+#center-block footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#center-block footer a{
+    border-style: none;
+    border-radius: 5rem;
+    background-color: green;
+    height: 3rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-top: 1rem;
 }
