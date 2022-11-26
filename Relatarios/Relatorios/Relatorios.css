@@ -1,0 +1,75 @@
+*{
+    font-family: Lexend Deca;
+}
+
+#body{
+    background-image: url(./imagens/backraond\ Cadastrar_Notess.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 705px;
+    position: relative;
+    
+}
+
+#section{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+#tela{
+    gap: 25px;
+    background-color: #fff;
+    height: 310px;
+    width: 500px;
+    border-radius: 15px;
+}
+
+.cabeçalho{
+    padding: 20px 0px 0px 20px;
+    font-size: 30px;
+    margin-left: 35px;
+}
+
+#ordem{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#ordem1{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+#inicio{
+    height: 50px;
+    width: 180px;
+    border: 2px solid #00A859;
+    border-radius: 5px;
+    font-size: 20px;
+    outline: none;
+}
+
+#fim{
+    height: 50px;
+    width: 180px;
+    border: 2px solid #00A859;
+    border-radius: 5px;
+    font-size: 20px;
+    outline: none;
+}
+
+#gerar{
+    margin-top: 20px;
+    margin: 0px auto;
+    text-align: center;
+    color: #fff;
+    background-color: #00A859;
+    padding: 8px 30px;
+    border: 2px solid #00A859;
+    border-radius: 15px;
+    font-size: 20px;
+}
