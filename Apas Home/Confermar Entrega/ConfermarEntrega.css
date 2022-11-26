@@ -1,0 +1,148 @@
+*{
+    font-family: Lexend Deca;
+}
+
+div img{
+    width: 22px;
+    height: 22px;
+}
+
+hr{
+    border: 1px solid #5795F1;
+}
+
+#body{
+    background-image: url(./imagens/backraond\ Home.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 705px;
+    position: relative;
+    
+}
+
+#section{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+#tela{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    background-color: #fff;
+    height: 525px;
+    width: 800px;
+    border-radius: 15px;
+}
+
+#pesquisa{
+    margin-left: 20px;
+}
+
+#barra{
+    border: 0px;
+    font-size: 20px;
+    outline: none;
+    width: 93%;
+}
+
+.cabeçalho{
+    padding: 20px 0px 0px 20px;
+    font-size: 30px;
+}
+
+.ordem{
+    display: flex;
+    justify-content: baseline;
+    align-items: flex-start;
+    align-items: center;
+    gap: 15px;
+    padding-left: 20px;
+}
+
+#nome{
+    height: 50px;
+    width: 309px;
+    border: 2px solid #00A859;
+    border-radius: 5px;
+    font-size: 20px;
+    outline: none;
+}
+
+#patrimonio{
+    height: 50px;
+    width: 409px;
+    border: 2px solid #00A859;
+    border-radius: 5px;
+    font-size: 20px;
+    outline: none;
+}
+
+#RA{
+    height: 50px;
+    width: 120px;
+    border: 2px solid #00A859;
+    border-radius: 5px;
+    font-size: 20px;
+    outline: none;
+}
+
+#curso{
+    height: 50px;
+    width: 490px;
+    border: 2px solid #00A859;
+    border-radius: 5px;
+    font-size: 20px;
+    outline: none;
+}
+
+#período{
+    height: 50px;
+    width: 120px ;
+    border: 2px solid #00A859;
+    border-radius: 5px;
+    font-size: 20px;
+    outline: none;
+}
+
+#foto{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    width: 250px;
+    border: 2px solid #00A859;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+#mostrar{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    align-items: center;
+    background-color: #00A859;
+    height: 35px;
+    width: 45px;
+    border: 2px solid #00A859;
+    border-radius: 5px;
+}
+
+#entregar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00A859;
+    padding: 15px 30px;
+    border: 2px solid #00A859;
+    border-radius: 15px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.ordem1{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
