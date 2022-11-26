@@ -25,7 +25,6 @@ body{
 #center-block{
     display: flex;
     flex-direction: column;
-    align-items: ;
     padding: 2rem;
     border-style: none;
     border-radius: 2rem;
@@ -61,6 +60,7 @@ body{
     border-right-style: hidden;
     border-left-style: hidden;
     border-bottom-style: hidden;
+    margin-right: 1rem;
 
 }
 #user-inputs img{
@@ -103,5 +103,5 @@ body{
 
 #center-block footer a:hover{
     transition: 0.2s;
-    background-color: rgb(25, 165, 25);
+    background-color: #00A859;
 }
