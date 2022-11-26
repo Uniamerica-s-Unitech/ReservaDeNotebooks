@@ -1,0 +1,151 @@
+*{
+    font-family: Lexend Deca;
+}
+
+div img{
+    width: 22px;
+    height: 22px;
+}
+
+#body{
+    background-image: url(./imagens/backraond\ Cadastrar_Alunos.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 705px;
+    position: relative;
+    
+}
+
+#section{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+#tela{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    background-color: #fff;
+    height: 497px;
+    width: 800px;
+    border-radius: 15px;
+}
+
+.cabeçalho{
+    padding: 20px 0px 0px 20px;
+    font-size: 25px;
+}
+
+.ordem{
+    display: flex;
+    justify-content: baseline;
+    align-items: flex-start;
+    align-items: center;
+    gap: 15px;
+    padding-left: 20px;
+}
+
+#nome{
+    height: 50px;
+    width: 309px;
+    border: 2px solid #00A859;
+    border-radius: 5px;
+    font-size: 20px;
+    outline: none;
+}
+
+#email{
+    height: 50px;
+    width: 409px;
+    border: 2px solid #00A859;
+    border-radius: 5px;
+    font-size: 20px;
+    outline: none;
+}
+
+#RA{
+    height: 50px;
+    width: 120px;
+    border: 2px solid #00A859;
+    border-radius: 5px;
+    font-size: 20px;
+    outline: none;
+}
+
+#curso{
+    height: 50px;
+    width: 490px;
+    border: 2px solid #00A859;
+    border-radius: 5px;
+    font-size: 20px;
+    outline: none;
+}
+
+#período{
+    height: 50px;
+    width: 120px ;
+    border: 2px solid #00A859;
+    border-radius: 5px;
+    font-size: 20px;
+    outline: none;
+}
+
+#telefone{
+    height: 50px;
+    width: 210px;
+    border: 2px solid #00A859;
+    border-radius: 5px;
+    font-size: 20px;
+    outline: none;
+}
+
+#end{
+    height: 50px;
+    width: 230px;
+    border: 2px solid #00A859;
+    border-radius: 5px;
+    font-size: 20px;
+    outline: none;
+}
+
+#foto{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    width: 250px;
+    border: 2px solid #00A859;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+#mostrar{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    align-items: center;
+    background-color: #00A859;
+    height: 35px;
+    width: 45px;
+    border: 2px solid #00A859;
+    border-radius: 5px;
+}
+
+#criar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00A859;
+    height: 42px;
+    width: 100px;
+    border: 2px solid #00A859;
+    border-radius: 15px;
+    font-size: 20px;
+}
+
+.ordem1{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
