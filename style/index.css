@@ -1,3 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root{
+    --accent-green: rgb(12, 141, 12) ;
+    --accent-grey: rgb(185, 185, 185) ;
+}
+
+p,h1,h2,h3{
+    font-family: 'Inter';
+}
+
 #sidebar{
     display: flex;
 }
@@ -6,7 +17,60 @@
     flex-direction: column;
     align-items: center;
     padding-top:0;
-    padding: 1rem;
+    padding: 0rem;
     width: 100%;
 } 
-  
+
+#stats{
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#stats article{
+    width: 20%; 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: green;  
+    border-radius: 1rem;
+    color: white;
+    padding: 1rem;
+}
+#stats article:last-child{
+    background-color: white;
+    color: black;
+    justify-content: center;
+    width: 15%;
+}
+
+#stats article img{
+    width: 3rem;
+}
+
+#stats article h3{
+    font-size: 3rem;
+    margin:0;
+    padding:0;
+}
+#stats article p{
+    font-size: 1.3rem;
+    margin:0;
+    padding:0;
+}
+.section-name{
+    align-self: flex-start;
+    margin-left: 2.5rem;
+    margin-top:1rem;    
+}
+.section-name h1{
+    font-size: 1.8rem;
+    padding: 0;
+    margin: 0rem;
+}
+
