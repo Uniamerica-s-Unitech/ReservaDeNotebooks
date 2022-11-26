@@ -25,7 +25,7 @@ body{
 #center-block{
     display: flex;
     flex-direction: column;
-    padding: 2rem;
+    padding: 3rem;
     border-style: none;
     border-radius: 2rem;
     -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
@@ -70,7 +70,9 @@ body{
 #user-inputs span{
     display: flex;
     align-items: center;
-    justify-content: flex-start;  
+    justify-content: flex-start;
+    height: 2rem;
+    margin-bottom: 1rem;
 }
 
 #user-inputs div{
