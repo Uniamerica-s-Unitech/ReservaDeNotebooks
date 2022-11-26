@@ -1,7 +1,4 @@
-:root{
-    --accent-green: rgb(12, 141, 12) ;
-    --lighter-green: rgb(70, 173, 44) ;
-}
+
 body{
     margin: 0;
     padding: 0;
@@ -51,8 +48,7 @@ p {
     margin-bottom: 0.2rem;
 }
 #sidebar article span:hover{
-    color: white;
-    background-color: var(--lighter-green);
+    background-color: var(--accent-grey);
     border-style: none;
     border-radius: 1rem;
     transition: 0.2s;
@@ -79,7 +75,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: var(--lighter-green);
+    background-color: var(--accent-grey);
     border-style: none;
     border-radius: 1rem;
     padding-left: 2rem;
