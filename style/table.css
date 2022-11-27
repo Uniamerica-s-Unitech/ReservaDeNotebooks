@@ -1,7 +1,7 @@
 .unitech-table{
     border-spacing: 0;
     width: 100%;
-    margin: 0rem 0rem 0rem 1rem;
+    margin: 0;
 }
 
 .unitech-table p,h2,h3{
@@ -24,10 +24,10 @@
 }
       
 .unitech-table th, td {
-    text-align: left;
+    text-align: start;
     padding: 1rem;
     margin-bottom: 1rem;
-    width: 20%;
+    width: auto;
 }
 .unitech-table td a{
     background-color: green;
