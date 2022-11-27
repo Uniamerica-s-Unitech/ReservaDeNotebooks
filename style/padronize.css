@@ -7,3 +7,7 @@
 p,h1,h2,h3{
     font-family: 'Inter';
 }
+hr{
+    border-top: 1px solid #5795F1; width: 100%;
+    z-index: -1;
+}   
