@@ -5,7 +5,7 @@
 .unitech-table{
     border-spacing: 0;
     width: 100%;
-    margin: 0;
+    margin-top: 1rem;
 }
 
 .unitech-table p,h2,h3{
@@ -35,7 +35,7 @@
 }
 .unitech-table td a{
     background-color: green;
-    margin:-1rem;
+    margin: -0.2rem;
     padding: 1rem;
     border-radius: 1rem;
     width: 50%;
