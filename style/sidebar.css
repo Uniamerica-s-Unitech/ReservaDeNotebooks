@@ -32,9 +32,12 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;    
-    color: white;
     border-radius: 1rem;
 }
+#active-item p{
+    color: white;
+}
+
 #sidebar header{
     justify-self: flex-start;
     padding-top: 3rem;
@@ -44,21 +47,23 @@ p {
     width: 8rem;
 }
 
-#sidebar article span{
+#sidebar article a{
     display: flex;
     align-items: space-around;
     justify-content: flex-start;
-    gap: 1rem   ;
+    gap: 1rem;
     padding-left: 2rem;
     padding-right: 2rem;
     margin-bottom: 1rem;
+    text-decoration: none;
+    color: black;
 }
-#sidebar article span:hover{
+#sidebar article a:hover{
     background-color: var(--accent-grey);
     border-style: none;
     border-radius: 1rem;
     transition: 0.2s;
-        }
+    }
 
 #sidebar footer a img{
     padding-right: 1rem;
@@ -80,6 +85,7 @@ p {
     color: white;
     height: 3.5rem;
     margin-bottom: 1.5rem;
+    text-decoration: none
 }
 
 #sidebar footer a:hover{

@@ -78,7 +78,9 @@ body{
 
 #center-block footer{
     display: flex;
-    justify-content: flex-end;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
 }
 
 #user-inputs span input{
@@ -97,6 +99,11 @@ body{
     padding-left: 1rem;
     padding-right: 1rem;
     margin-top: 1rem;
+    text-decoration: none;
+    width: auto;
+    margin-left: 5rem;
+    margin-right: 5rem;
+
 }
 #forgot-password{
     color: black;
