@@ -1,3 +1,7 @@
+:root{
+    --accent-green: rgb(12, 141, 12) ;
+    --accent-grey: rgb(185, 185, 185) ;
+}
 .unitech-table{
     border-spacing: 0;
     width: 100%;
@@ -36,10 +40,23 @@
     border-radius: 1rem;
     width: 50%;
     height: 1rem;
+    display: flex;
+    align-items: center ;
+    justify-content: center;
 }
+
+.unitech-table td a:hover{
+   background-color: var(--accent-grey);
+    transition: 0.5s;
+}
+.unitech-table td a:hover p{
+    color: black;
+    transition: 0.5s;
+}
+
 
 .unitech-table td a p{
     color: white;
     font-size: 1.2rem;
-    font-weight: 600;
+    font-weight: 400;
 }
