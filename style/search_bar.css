@@ -1,10 +1,11 @@
 #search-bar{
-    width: 100%;
+    width: 95%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     height: 3rem;
     padding-top: 1rem;
+    margin: 1rem;
 }
 #search-bar span,a{
     display: flex;
@@ -22,11 +23,15 @@
 #search-bar a{
     background-color: var(--accent-green);
     color:white;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
     height: 3rem;
+    width: auto;    
     border-radius: 1rem;
     display: flex;
     align-items: center;
     justify-content: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
