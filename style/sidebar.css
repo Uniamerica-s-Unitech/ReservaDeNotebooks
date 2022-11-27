@@ -18,7 +18,10 @@ p {
     justify-content: space-between;
     padding-left: 1rem;
     padding-right   : 1rem;
-    background-color: #E4E4E4;
+    background-color: white;
+    -webkit-box-shadow: inset -14px 0px 29px -16px rgba(184,184,184,1);
+    -moz-box-shadow: inset -14px 0px 29px -16px rgba(184,184,184,1);
+    box-shadow: inset -14px 0px 29px -16px rgba(184,184,184,1);
 }
 
 #active-item{

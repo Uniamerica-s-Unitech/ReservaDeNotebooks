@@ -1,0 +1,45 @@
+.unitech-table{
+    border-spacing: 0;
+    width: 100%;
+    margin: 0rem 0rem 0rem 1rem;
+}
+
+.unitech-table p,h2,h3{
+    padding:0;
+    margin:0;
+}
+
+.unitech-table p{
+    font-weight: 300;
+    font-size: 1.3rem;
+}
+
+.unitech-table h2{
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+.unitech-table h3{
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+      
+.unitech-table th, td {
+    text-align: left;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    width: 20%;
+}
+.unitech-table td a{
+    background-color: green;
+    margin:-1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    width: 50%;
+    height: 1rem;
+}
+
+.unitech-table td a p{
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
