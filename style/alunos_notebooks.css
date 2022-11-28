@@ -20,6 +20,13 @@ p,h1,h2,h3{
     padding: 0rem;
     width: 84%;
 }
+
+@media screen and (max-width: 1366px) {
+    #index-content{
+        width: 79%;
+    }
+}
+
 #nav-group{
     display: flex;
     align-items: center;
@@ -63,15 +70,29 @@ p,h1,h2,h3{
 }
 
 #stats article h3{
-    font-size: 1.8rem;
+    font-size: 3rem;
     margin:0;
     padding:0;
 }
+
+@media screen and (max-width: 1366px) {
+    #stats article h3{
+        font-size: 2rem;
+    }
+}
+
 #stats article p{
     font-size: 1.3rem;
     margin:0;
     padding:0;
 }
+
+@media screen and (max-width: 1366px) {
+    #stats article p{
+        font-size: 1rem;
+    }
+}
+
 .section-name{
     align-self: flex-start;
     margin-left: 2.5rem;
@@ -82,9 +103,17 @@ p,h1,h2,h3{
     padding: 0;
     margin: 0rem;
 }
+
+@media screen and (max-width: 1366px) {
+    .section-name h1{
+        font-size: 1.5rem;
+    }
+}
+
 .notebooks{
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
+    padding-right: 0.5rem;
 }
