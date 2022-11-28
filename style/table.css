@@ -28,7 +28,7 @@
 }
       
 .unitech-table th, td {
-    text-align: start;
+    text-align: center;
     padding: 1rem;
     margin-bottom: 1rem;
     width: auto;
@@ -36,9 +36,8 @@
 .unitech-table td a{
     background-color: green;
     margin: -0.2rem;
-    padding: 1rem;
+    padding: 1rem 0;
     border-radius: 1rem;
-    width: 50%;
     height: 1rem;
     display: flex;
     align-items: center ;

@@ -18,7 +18,7 @@ p,h1,h2,h3{
     align-items: space-between;
     padding-top:0;
     padding: 0rem;
-    width: 100%;
+    width: 84%;
 }
 #nav-group{
     display: flex;
@@ -48,12 +48,14 @@ p,h1,h2,h3{
     border-radius: 1rem;
     color: white;
     padding: 1rem;
+    align-items: center;
 }
 #stats article:last-child{
     background-color: white;
     color: black;
     justify-content: center;
     gap: 1rem;
+    align-items: center;
 }
 
 #stats article img{
@@ -85,5 +87,4 @@ p,h1,h2,h3{
     justify-content: center;
     align-items: center;
     width: 100%;
-    margin-left: 2rem;
 }
