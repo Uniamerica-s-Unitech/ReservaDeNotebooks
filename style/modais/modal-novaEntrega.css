@@ -1,0 +1,99 @@
+#modal-novaEntrega{
+    display: block;
+    position: absolute;
+    z-index: 1;
+    top: 30%;
+    left: 25%;
+    margin: auto;
+    background-color: white ;
+    border-radius: 1rem;
+    -webkit-box-shadow: 0px 0px 18px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 18px -4px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 18px -4px rgba(0,0,0,0.75);
+    animation-name: modalOpen;
+    animation-duration: 1s;
+}
+
+#modal-novaEntrega p{
+    font-size: 1.2rem;
+}
+#modal-novaEntrega header{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 6rem;
+}
+
+#modal-novaEntrega label input{
+    border-top:hidden;
+    border-style: none;
+    outline: none;
+}
+
+#modal-novaEntrega header h1,p{
+    margin: 0;
+    padding: 0;
+}
+
+
+#modal-novaEntrega label{
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+    margin-left: 1rem;
+}
+
+#modal-novaEntrega label img{
+    width: 1.5rem;
+}
+
+#modal-novaEntrega span input{
+    border-color: green;
+    border-style:solid;
+    border-radius: 0.5rem;
+    font-size:1.3rem;
+    outline: none;
+}
+
+
+#modal-novaEntrega section{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#modal-novaEntrega article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+#modal-novaEntrega span{
+    display: flex;
+    flex-direction: column;
+}
+
+#modal-novaEntrega footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#modal-novaEntrega footer a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: green;
+    width: 10rem;
+    color: white;
+    border-radius: 1rem;
+}

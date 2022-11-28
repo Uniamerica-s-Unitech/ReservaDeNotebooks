@@ -10,9 +10,51 @@
     <link rel="stylesheet"  href="/style/index.css">
     <link rel="stylesheet"  href="/style/search_bar.css">
     <link rel="stylesheet"  href="/style/table.css">
-    <link rel="stylesheet"  href="/style/modais/modal-relatorio.css">   
+    <link rel="stylesheet"  href="/style/modais/modal-relatorio.css">
+    <link rel="stylesheet"  href="/style/modais/modal-novaEntrega.css">
 </head>
 <body>
+    <section id="modal-novaEntrega">
+        <header>
+            <h1>Nova entrega</h1>
+            <img src="/imgs/modal/close_btn.svg" id="close-relatorio">
+        </header>
+        <label>
+            <img src="/imgs/general/search_icon.svg">
+            <input type="text" placeholder="Pesquisar">
+        </label>
+        <hr>
+        <section>
+            <article>
+                <span>
+                    <p>Nome completo</p>
+                    <input type="text">
+                </span>
+                <span>
+                    <p>Patrimônio</p>
+                    <input type="text">
+                </span>
+                <span>
+                    <p>RA</p>
+                    <input type="text">
+                </span>
+            </article>
+            <article>
+                <span>
+                    <p>Curso</p>
+                    <input type="text">
+                </span>
+                <span>
+                    <p>Período</p>
+                    <input type="text">
+                </span>
+                <span>
+                    <p>RG</p>
+                    <input type="text">
+                </span>
+            </article>
+        </section>
+    </section>
     <section id="modal-relatorio">
         <header>
             <h1>Gerar relatório </br>de movimentações</h1>
@@ -240,5 +282,5 @@
         </section>
     </main>
 </body>
-<script src="/scripts/modalSwitch.js"></script>
+<script src="/scripts/modal-relatorio.js"></script>
 </html>
