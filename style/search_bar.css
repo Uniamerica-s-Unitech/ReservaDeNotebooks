@@ -7,6 +7,13 @@
     padding-top: 1rem;
     margin: 1rem;
 }
+
+@media screen and (max-width: 1366px) {
+    #search-bar{
+        height: 1.5rem;
+    }
+}
+
 #search-bar span,a{
     display: flex;
     gap: 1rem;
@@ -15,6 +22,12 @@
 #search-bar span input{
     border-style:hidden;
     font-size:1.3rem;
+}
+
+@media screen and (max-width: 1366px) {
+    #search-bar span input{
+        font-size: 1rem;
+    }
 }
 
 #search-bar img{

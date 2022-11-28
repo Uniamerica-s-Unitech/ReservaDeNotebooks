@@ -26,13 +26,38 @@
     font-weight: 600;
     font-size: 1.3rem;
 }
-      
+
+@media screen and (max-width: 1366px) {
+    .unitech-table p{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    .unitech-table h2{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    .unitech-table h3{
+        font-size: 1.1rem;
+    }
+}
+
 .unitech-table th, td {
     text-align: center;
-    padding: 1rem;
+    padding: 1.5rem;
     margin-bottom: 1rem;
     width: auto;
 }
+
+@media screen and (max-width: 1366px) {
+    .unitech-table th, td{
+        padding: 0.7rem;
+    }
+}
+
 .unitech-table td a{
     background-color: green;
     margin: -0.2rem;
@@ -42,6 +67,12 @@
     display: flex;
     align-items: center ;
     justify-content: center;
+}
+
+@media screen and (max-width: 1366px) {
+    .unitech-table td a{
+        height: 0.6rem;
+    }
 }
 
 .unitech-table td a:hover{
@@ -58,4 +89,10 @@
     color: white;
     font-size: 1.2rem;
     font-weight: 400;
+}
+
+@media screen and (max-width: 1366px) {
+    .unitech-table td a p{
+        font-size: 1rem;
+    }
 }

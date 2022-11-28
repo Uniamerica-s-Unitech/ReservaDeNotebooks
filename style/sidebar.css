@@ -12,6 +12,12 @@ p {
     font-size: 1.5rem;
 }
 
+@media screen and (max-width: 1366px) {
+    p{
+        font-size: 1rem;
+    }
+}
+
 #sidebar{   
     width: 90%;
     height: 99vh;
