@@ -1,0 +1,84 @@
+:root{
+    --accent-green: rgb(12, 141, 12) ;
+    --accent-grey: rgb(185, 185, 185) ;
+}
+#modal-relatorio{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    top: 30%;
+    left: 40%;
+    padding: 2rem;
+    margin: auto;
+    background-color: white ;
+    border-radius: 1rem;
+    -webkit-box-shadow: 0px 0px 18px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 18px -4px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 18px -4px rgba(0,0,0,0.75);
+    animation-name: modalOpen;
+    animation-duration: 1s;
+}
+#modal-relatorio header{
+    display: flex;
+    align-items: flex-start;
+    gap: 6rem;
+}
+#modal-relatorio header h1{
+    padding: 0;
+    margin: 0;
+}
+#modal-relatorio header img{
+    cursor: pointer;
+}
+#modal-relatorio div{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+#modal-relatorio div article p{
+    padding: 0;
+    margin: 0;
+    font-size: 1.2rem;
+}
+#modal-relatorio div article input{
+    margin-top: 1rem;
+    font-size: 1rem;
+    height: 2rem;
+    border-radius: 0.3rem;
+    width: 7rem;
+    border-style: solid;
+    border-color: green;
+    outline: none;
+}
+#modal-relatorio footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+#modal-relatorio footer button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3rem;
+    font-size: 0.8rem;
+    background-color: green;
+    color: white;
+    border-radius: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-style: none;
+    cursor: pointer;
+}
+#modal-relatorio footer button:hover{
+    background-color: var(--accent-green);
+    transition: 0.2s;
+}
+
+@keyframes modalOpen{
+    from{opacity: 0;}
+    to {opacity: 1;}
+}

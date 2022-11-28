@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unitech - Home</title>
+    <link rel="stylesheet" href="/style/padronize.css">
+    <link rel="stylesheet"  href="/style/sidebar.css">
+    <link rel="stylesheet"  href="/style/index.css">
+    <link rel="stylesheet"  href="/style/search_bar.css">
+    <link rel="stylesheet"  href="/style/table.css">
+    <link rel="stylesheet"  href="/style/modais/modal-relatorio.css">
+    <link rel="stylesheet"  href="/style/modais/modal-novaEntrega.css">
+</head>
+<body>
+    <section id="modal-novaEntrega">
+        <header>
+            <h1>Nova entrega</h1>
+            <img src="/imgs/modal/close_btn.svg" id="close-novaEntrega">
+        </header>
+        <label>
+            <img src="/imgs/general/search_icon.svg">
+            <input type="text" placeholder="Pesquisar">
+        </label>
+        <hr>
+        <section>
+            <article>
+                <span>
+                    <p>Nome completo</p>
+                    <input type="text">
+                </span>
+                <span>
+                    <p>Patrimônio</p>
+                    <input type="text">
+                </span>
+                <span>
+                    <p>RA</p>
+                    <input type="text">
+                </span>
+            </article>
+            <article>
+                <span>
+                    <p>Curso</p>
+                    <input type="text">
+                </span>
+                <span>
+                    <p>Período</p>
+                    <input type="text">
+                </span>
+                <span>
+                    <p>RG</p>
+                    <input type="text">
+                </span>
+            </article>
+            <footer>
+                <a id="entrega-nova">
+                    <h1>Entregar</h1>
+                </a>
+            </footer>
+        </section>
+    </section>
+    <section id="modal-relatorio">
+        <header>
+            <h1>Gerar relatório </br>de movimentações</h1>
+            <img src="/imgs/modal/close_btn.svg" id="close-relatorio">
+        </header>
+        <div>
+            <article>
+                <p>Início</p>
+                <input type="text" placeholder="dd/mm/aaaa" maxlength="10">
+            </article>
+            <article>
+                <p>Fim</p>
+                <input type="text" placeholder="dd/mm/aaaa" maxlength="10">
+            </article>
+        </div>
+        <footer>
+            <button id="gerar-relatorio"><h1>Gerar</h1></button>
+        </footer>
+    </section>
+    <aside class="behind-modal">
+        <section id="sidebar" >
+            <header>
+                <img src="/imgs/general/logo-unitech.svg">
+            </header>
+            <article>
+                <a href="/index.html" id="active-item">
+                    <img src="/imgs/index/home.svg">
+                    <p>Início</p>
+                </a>
+                <a href="/alunos.html">
+                    <img src="/imgs/sidebar/alunos.svg">
+                    <p>Alunos</p>
+                </a>
+                <a href="/notebooks.html">
+                    <img src="/imgs/sidebar/notebooks.svg">
+                    <p>Notebooks</p>
+                </a>
+                <a id="btn-relatorio">
+                    <img src="/imgs/sidebar/relatorios.svg">
+                    <p>Relatórios</p>
+                </a>
+            </article>
+            <footer>
+                <a href="/login.html">
+                    <img src="/imgs/sidebar/sair.svg">
+                    <p>Sair</p>
+                </a>
+            </footer>
+        </section>
+    </aside>
+    <main id="index-content" class="behind-modal">
+        <section id="search-bar">
+            <span>
+                <img src="/imgs/general/search_icon.svg">
+                <input type="text" placeholder="Pesquisar">
+            </span>
+            <a>
+                <img src="/imgs/general/default_user_picture.svg">
+                <p>Central de Ajuda</p>
+            </a>
+        </section>
+        <hr>
+        <section class="section-name">
+            <h1>
+            Status
+            </h1>
+        </section>
+        <section id="stats">
+            <article>
+                <h3>
+                    100
+                </h3>
+                <p>
+                    emprestados
+                </p>
+            </article>
+            <article>
+                <h3>
+                    50/150
+                </h3>
+                <p>
+                    disponíveis
+                </p>
+            </article>
+            <article>
+                <h3>
+                    25
+                </h3>
+                <p>
+                    tickets pendentes
+                </p>
+            </article>
+            <article id="btn-novaEntrega">
+                <img src="/imgs/index/new.svg">
+                <p>
+                    Nova entrega
+                </p>
+            </article>
+        </section>
+        <section class="section-name">
+            <h1>
+                Tickets recentes
+            </h1>
+        </section>
+        <section class="tickets">
+            <table class="unitech-table">
+                <tr>
+                    <th>
+                        <h3>ID</h3>
+                    </th>
+                    <th>
+                        <h3>NOME</h3>
+                    </th>
+                    <th>
+                        <h3>CURSO</h3>
+                    </th>
+                    <th>
+                        <h3>PERÍODO</h3>
+                    </th>
+                    <th>
+                        <h3>AÇÃO</h3>
+                    </th>
+                </tr>
+                <tr>
+                    <td>
+                        <h3>574846</h3>
+                    </td>
+                    <td>
+                        <p>Gabriel Wisniewski</p>
+                    </td>
+                    <td>
+                        <p>Eng. Software</p>
+                    </td>
+                    <td>
+                        <p>2º</p>
+                    </td>
+                    <td>
+                        <a>
+                            <img src="/imgs/index/return.svg">
+                            <p>Devolver</p>
+                        </a>  
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h3>574846</h3>
+                    </td>
+                    <td>
+                        <p>Gabriel Wisniewski</p>
+                    </td>
+                    <td>
+                        <p>Eng. Software</p>
+                    </td>
+                    <td>
+                        <p>2º</p>
+                    </td>
+                    <td>
+                        <a>
+                            <img src="/imgs/index/return.svg">
+                            <p>Devolver</p>
+                        </a>  
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h3>574846</h3>
+                    </td>
+                    <td>
+                        <p>Gabriel Wisniewski</p>
+                    </td>
+                    <td>
+                        <p>Eng. Software</p>
+                    </td>
+                    <td>
+                        <p>2º</p>
+                    </td>
+                    <td>
+                        <a>
+                            <img src="/imgs/index/return.svg">
+                            <p>Devolver</p>
+                        </a>  
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h3>574846</h3>
+                    </td>
+                    <td>
+                        <p>Gabriel Wisniewski</p>
+                    </td>
+                    <td>
+                        <p>Eng. Software</p>
+                    </td>
+                    <td>
+                        <p>2º</p>
+                    </td>
+                    <td>
+                        <a>
+                            <img src="/imgs/index/return.svg">
+                            <p>Devolver</p>
+                        </a>  
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h3>574846</h3>
+                    </td>
+                    <td>
+                        <p>Gabriel Wisniewski</p>
+                    </td>
+                    <td>
+                        <p>Eng. Software</p>
+                    </td>
+                    <td>
+                        <p>2º</p>
+                    </td>
+                    <td>
+                        <a>
+                            <img src="/imgs/index/return.svg">
+                            <p>Devolver</p>
+                        </a>  
+                    </td>
+                </tr>           
+            </table>
+        </section>
+    </main>
+</body>
+<script src="/scripts/modal-relatorio.js"></script>
+<script src="/scripts/modal-novaEntrega.js"></script>
+</html>

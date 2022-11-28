@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unitech - Alunos</title>
+    <link rel="stylesheet" href="/style/padronize.css">
+    <link rel="stylesheet"  href="/style/sidebar.css">
+    <link rel="stylesheet"  href="/style/alunos_notebooks.css">
+    <link rel="stylesheet"  href="/style/search_bar.css">
+    <link rel="stylesheet"  href="/style/table.css">
+    <link rel="stylesheet"  href="/style/modais/modal-relatorio.css">
+</head>
+<body>
+    <section id="modal-relatorio">
+        <header>
+            <h1>Gerar relatório </br>de movimentações</h1>
+            <img src="/imgs/modal/close_btn.svg" id="close-relatorio">
+        </header>
+        <div>
+            <article>
+                <p>Início</p>
+                <input type="text" placeholder="dd/mm/aaaa" maxlength="10">
+            </article>
+            <article>
+                <p>Fim</p>
+                <input type="text" placeholder="dd/mm/aaaa" maxlength="10">
+            </article>
+        </div>
+        <footer>
+            <button id="gerar-relatorio"><h1>Gerar</h1></button>
+        </footer>
+    </section>
+    <aside class="behind-modal">
+        <section id="sidebar" >
+            <header>
+                <img src="/imgs/general/logo-unitech.svg">
+            </header>
+            <article>
+                <a href="/index.html">
+                    <img src="/imgs/sidebar/home.svg">
+                    <p>Início</p>
+                </a>
+                <a href="/alunos.html" id="active-item">
+                    <img src="/imgs/alunos/alunos.svg">
+                    <p>Alunos</p>
+                </a>
+                <a href="/notebooks.html">
+                    <img src="/imgs/sidebar/notebooks.svg">
+                    <p>Notebooks</p>
+                </a>
+                <a id="btn-relatorio">
+                    <img src="/imgs/sidebar/relatorios.svg">
+                    <p>Relatórios</p>
+                </a>
+            </article>
+            <footer>
+                <a href="/login.html">
+                    <img src="/imgs/sidebar/sair.svg">
+                    <p>Sair</p>
+                </a>
+            </footer>
+        </section>
+    </aside>
+<!--<aside>
+    <section id="sidebar">
+        <header>
+            <img src="/imgs/general/logo-unitech.svg">
+        </header>
+        <article>
+            <a href="/index.html">
+                <img src="/imgs/sidebar/home.svg">
+                <p>Início</p>
+            </a>
+            <a href="/alunos.html" id="active-item">
+                <img src="/imgs/alunos/alunos.svg">
+                <p>Alunos</p>
+            </a>
+            <a href="/notebooks.html">
+                <img src="/imgs/sidebar/notebooks.svg">
+                <p>Notebooks</p>
+            </a>
+            <a>
+                <img src="/imgs/sidebar/relatorios.svg">
+                <p>Relatórios</p>
+            </a>
+        </article>
+        <footer>
+            <a href="/login.html">
+                <img src="/imgs/sidebar/sair.svg">
+                <p>Sair</p>
+            </a>
+        </footer>
+    </section>
+</aside>-->
+<main id="index-content">  
+    <nav id="nav-group">
+        <section id="stats">
+            <article>
+                <h3>
+                    4
+                </h3>
+                <p>
+                    alunos 
+                </p>
+            </article>
+            <article>
+                <h3>
+                    1
+                </h3>
+                <p>
+                    pendente
+                </p>
+            </article>
+            <article>
+                <img src="/imgs/index/new.svg">
+                <p>
+                    Novo aluno
+                </p>
+            </article>
+        </section>
+        <div>
+            <section id="search-bar">
+                <span>
+                    <img src="/imgs/general/search_icon.svg">
+                    <input type="text" placeholder="Pesquisar">
+                </span>
+                <a>
+                    <img src="/imgs/general/default_user_picture.svg">
+                    <p>Central de Ajuda</p>
+                </a>
+            </section>
+            <hr>
+        </div>
+        
+    </nav>
+    <section class="section-name">
+        <h1>
+            Alunos
+        </h1>
+    </section>
+    <section class="notebooks">
+        <table class="unitech-table">
+            <tr>
+                <th>
+                    <h3>ID</h3>
+                </th>
+                <th>
+                    <h3>NOME</h3>
+                </th>
+                <th>
+                    <h3>RG</h3>
+                </th>
+                <th>
+                    <h3>CURSO</h3>
+                </th>
+                <th>
+                    <h3>PERÍODO</h3>
+                </th>
+                <th>
+                    <h3>RA</h3>
+                </th>
+                <th>
+                    <h3>NOTF.</h3>
+                </th>
+                <th>
+                    <h3>AÇÃO</h3>
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    <h3>0001</h3>
+                </td>
+                <td>
+                    <p>Gabriel Wisniewski</p>
+                </td>
+                <td>
+                    <p>12.326.182-8</p>
+                </td>
+                <td>
+                    <p>Eng. Software</p>
+                </td>
+                <td>
+                    <p>2ª</p>
+                </td>
+                <td>
+                    <p>504836</p>
+                </td>
+                <td>
+                    <p></p>
+                </td>
+                <td>
+                    <a>
+                        <p>Acessar</p>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h3>0001</h3>
+                </td>
+                <td>
+                    <p>Gabriel Wisniewski</p>
+                </td>
+                <td>
+                    <p>12.326.182-8</p>
+                </td>
+                <td>
+                    <p>Eng. Software</p>
+                </td>
+                <td>
+                    <p>2ª</p>
+                </td>
+                <td>
+                    <p>504836</p>
+                </td>
+                <td>
+                    <p></p>
+                </td>
+                <td>
+                    <a>
+                        <p>Acessar</p>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h3>0001</h3>
+                </td>
+                <td>
+                    <p>Gabriel Wisniewski</p>
+                </td>
+                <td>
+                    <p>12.326.182-8</p>
+                </td>
+                <td>
+                    <p>Eng. Software</p>
+                </td>
+                <td>
+                    <p>2ª</p>
+                </td>
+                <td>
+                    <p>504836</p>
+                </td>
+                <td>
+                    <p></p>
+                </td>
+                <td>
+                    <a>
+                        <p>Acessar</p>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h3>0001</h3>
+                </td>
+                <td>
+                    <p>Gabriel Wisniewski</p>
+                </td>
+                <td>
+                    <p>12.326.182-8</p>
+                </td>
+                <td>
+                    <p>Eng. Software</p>
+                </td>
+                <td>
+                    <p>2ª</p>
+                </td>
+                <td>
+                    <p>504836</p>
+                </td>
+                <td>
+                    <p></p>
+                </td>
+                <td>
+                    <a>
+                        <p>Acessar</p>
+                    </a>
+                </td>
+            </tr>         
+        </table>
+    </section>
+</main>
+</body>
+<script src="/scripts/modal-relatorio.js"></script>
+</html>
