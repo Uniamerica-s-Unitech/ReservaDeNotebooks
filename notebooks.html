@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/notebooks.css">
+    <title>Home - Unitech</title>
+</head>
+<body>
+    <section class="sidebar">
+        <img src="img/logoUnitech.svg" class="logo-img">
+        <article>
+            <button class="option-active"><p>Home</p></button>
+            <button><p>Alunos</p></button>
+            <button><p>Notebooks</p></button>
+            <button><p>Relatórios</p></button>
+        </article>
+        <footer>
+            <button class="logoff-button"><p>Sair</p></button>
+        </footer>
+    </section>    
+    <main>
+        <header class="search-bar">
+            <div class="alunos_registrados">
+                <p class="tamanho_texto">100</p>
+                <p class="tamanho_texto2">Alunos registrados</p>
+            </div>
+            <div class="cadastros_pendentes">
+                <p class="tamanho_texto3">100</p>
+                <p class="tamanho_texto4">Cadastros pendentes</p>
+            </div>
+            <div class="add_note">
+                <img  class="add_note_button" src="./img/add_note.png" onclick="">
+                <p>Add Notebooks</p>
+
+            </div>
+            <article id="divBusca">
+
+                <button id="buscaBotao">
+                    <img src="./img/busca.png" width="35px" height="35px">
+                </button>
+
+                <input type="text" id="txtBusca" placeholder="Pesquisa...">
+                
+                <button id="centralBotao">
+                    <img src="./img/user.png" width="24px" height="24px">
+                    <p class="text">Central de Ajuda</p>
+                </button>
+            </article> 
+                
+        </header>
+        <section class="statistics">
+            <div class="centralizar">
+                <div class="info_tabela">
+                        <p class="id_info">ID</p>
+                        <p class="marca_info">Marca</p>
+                        <p class="modelo_info"> Modelo</p>
+                        <p class="estado_info">  Estado</p>
+                </div>
+            </div>
+        </section>
+        <section >
+            <div>
+                <div class="centralizar_tabela">
+                    <div class="info_tabela_color">
+                            <p class="id_info">0001</p>
+                            <p class="marca_info">ACER</p>
+                            <p class="modelo_info"> NITRO 5</p>
+                            <p class="estado_info_tabela">Sem defeito </p>
+                            <input type="button" class="botao_acessar" value="Acessar">
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+        <footer class="see-more">
+        </footer>
+    </main>   
+</body>
+</html>
