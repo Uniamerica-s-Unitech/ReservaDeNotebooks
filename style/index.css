@@ -64,6 +64,7 @@ p,h1,h2,h3{
     width: 15%;
     gap: 1rem;
     align-items: center;
+    cursor: pointer;
 }
 
 #stats article img{

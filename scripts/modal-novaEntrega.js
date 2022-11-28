@@ -1,18 +1,15 @@
-let show = false;
-let blur = false;
-let openBtn = document.getElementById("btn-relatorio");
-let closeBtn = document.getElementById("close-relatorio");
-let itemsBehindModal = document.getElementsByClassName("behind-modal");
-let btnGo = document.getElementById("gerar-relatorio");
+let exhibit = false;
+let unfocus = false;
+let btnOpen = document.getElementById("btn-novaEntrega");
+let btnClose = document.getElementById("close-novaEntrega");
+let screenBehindModal = document.getElementsByClassName("behind-modal");
+let goBtn = document.getElementById("entrega-nova");
 
+btnOpen.addEventListener('click',openAndBlur);
 
+btnClose.addEventListener('click',closeAll);
 
-openBtn.addEventListener('click',openAndBlur);
-
-closeBtn.addEventListener('click',closeAll);
-
-btnGo.addEventListener('click',closeAll);
-
+goBtn.addEventListener('click',closeAll);
 
 
 function closeAll(){
@@ -21,28 +18,28 @@ function closeAll(){
 }
 
 function openAndBlur(){
-    showModal();
+    exhibitModal();
     blurBackground();
 }
 
 function blurBackground(){
-    for(let i=0;i<itemsBehindModal.length;i++){
-        itemsBehindModal[i].style.webkitFilter = "blur(5px)";
+    for(let i=0;i<screenBehindModal.length;i++){
+        screenBehindModal[i].style.webkitFilter = "blur(5px)";
     }
 }
 
 function unblurBackground(){
-    for(let i=0;i<itemsBehindModal.length;i++){
-        itemsBehindModal[i].style.webkitFilter = "blur(0px)";
+    for(let i=0;i<screenBehindModal.length;i++){
+        screenBehindModal[i].style.webkitFilter = "blur(0px)";
     }
 }
 
-function showModal(){
+function exhibitModal(){
 
-    document.getElementById('modal-relatorio').style.display = "block";
+    document.getElementById('modal-novaEntrega').style.display = "block";
 }
 
 function closeModal(){
 
-    document.getElementById('modal-relatorio').style.display = "none";
+    document.getElementById('modal-novaEntrega').style.display = "none";
 }
