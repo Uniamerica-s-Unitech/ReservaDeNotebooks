@@ -9,14 +9,14 @@ let btnGo = document.getElementById("gerar-relatorio");
 
 openBtn.addEventListener('click',openAndBlur);
 
-closeBtn.addEventListener('click',closeAll);
+closeBtn.addEventListener('click',xcloseAll);
 
-btnGo.addEventListener('click',closeAll);
+btnGo.addEventListener('click',xcloseAll);
 
 
 
-function closeAll(){
-    closeModal();
+function xcloseAll(){
+    xcloseModal();
     unblurBackground();
 }
 
@@ -42,7 +42,6 @@ function showModal(){
     document.getElementById('modal-relatorio').style.display = "block";
 }
 
-function closeModal(){
-
+function xcloseModal(){
     document.getElementById('modal-relatorio').style.display = "none";
 }

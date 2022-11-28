@@ -1,9 +1,9 @@
 #modal-novaEntrega{
     display: none;
-    position: absolute;
+    position: fixed;
     z-index: 1;
-    top: 30%;
-    left: 25%;
+    top: 20%;
+    left: 12%;
     margin: auto;
     background-color: white ;
     border-radius: 1rem;
@@ -15,7 +15,7 @@
 }
 
 #modal-novaEntrega p{
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 #modal-novaEntrega header{
     margin-left: 2rem;
